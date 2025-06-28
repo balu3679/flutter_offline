@@ -1,0 +1,28 @@
+[
+    {
+      "label": "Full Name",
+      "key": "name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "label": "Email Address",
+      "key": "email",
+      "type": "email",
+      "required": true
+    },
+    {
+      "label": "Age",
+      "key": "age",
+      "type": "number",
+      "required": false
+    },
+    {
+      "label": "Gender",
+      "key": "gender",
+      "type": "dropdown",
+      "required": true,
+      "options": ["Male", "Female", "Other"]
+    }
+  ]
+  
